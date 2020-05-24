@@ -1,3 +1,9 @@
 # c-calc
 
-A calculator that performs addition, multiplication, and reciprication on $n$-dimensional algebra.
+## calc.h
+
+A calculator that performs addition, multiplication, reciprication, and exponentiation on $n$-dimensional algebra. 
+
+## trig.h
+
+Trigonometric functions $\sin(x)$ and $\cos(x)$.

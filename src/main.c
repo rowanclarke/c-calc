@@ -6,15 +6,15 @@
 #include "trig.h"
 
 int main(void) {
-	int i, n = 4;
-	float a[] = {5, 2, 6, 7};
+	int i, n = 2;
+	float a[] = {5, 2};
 	float *c = calloc(n, sizeof(float)); 
 	
-	exponentiate(a, c, n);
+	sine(a, c, n);
 	
 	for (i = 0; i < n; i++) printf("%f ", *(c+i));
 	free(c);
-    return 0;
+	return 0;
 }
 
 
