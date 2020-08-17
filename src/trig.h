@@ -1,5 +1,5 @@
 #ifndef TRIG
-#define TIRG
+#define TRIG
 
 #include <math.h>
 
